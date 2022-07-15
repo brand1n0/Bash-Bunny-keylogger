@@ -11,6 +11,6 @@ for(;;) {
     }
 
     # change number of seconds for different delays
-    Start-Sleep 60
+    Start-Sleep 30
 }
 
